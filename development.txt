@@ -1,0 +1,23 @@
+https://viblo.asia/p/jwt-authentication-authorization-in-nodejs-rest-api-WAyK8PXnKxX
+
+Xây dựng cây thư mục
+    root/
+        src/
+            database/
+                database.js
+            middleware/
+                auth.js
+            models/
+                User.js
+            routers/
+                user.js
+        app.js
+
+    Thư mục database/ chứa tất cả các cấu hình kết nối với database
+    Thư mục models/ chứa tất cả các models mà chúng ta sử dụng với mongoose
+    Thư mục middleware/ chứa các middleware
+
+Các package cần cài đặt
+    npm install express mongodb mongoose bcryptjs validator jsonwebtoken
+
+    npm install env-cmd nodemon --dev
